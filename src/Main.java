@@ -17,7 +17,7 @@ public class Main {
         else{
             greeting="Good Afternoon";
         }
-        myGreeting.setCurrentTime(LocalDateTime.now().toString());
+        //myGreeting.setCurrentTime(LocalDateTime.now().toString());
         myGreeting.setName(name);
         myGreeting.setMessage(greeting);
         System.out.println(myGreeting.getGreeting());
