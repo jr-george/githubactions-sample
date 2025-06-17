@@ -4,6 +4,7 @@ pipeline {
     stage('Greet') {
       steps {
         writeFile(file: 'hola.txt', text: 'Si funciona')
+        echo 'Hello'
       }
     }
 
