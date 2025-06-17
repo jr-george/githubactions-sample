@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: prueba
+name: CI
 
 # Controls when the workflow will run
 on:
@@ -18,7 +18,6 @@ jobs:
   # This workflow contains a single job called "build"
   build: 
     runs-on: ubuntu-latest
-
-  steps:
-    - name: "Mostrar mensaje"
-      run: echo "Hola mundo"
+    steps:
+      - name: "Mostrar mensaje"
+        run: echo "Hola mundo"
