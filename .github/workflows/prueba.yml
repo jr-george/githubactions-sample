@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: create_file
-        run: touch '${GITHUB_WORKSPACE}/'hola.txt' 
+        run: touch ${GITHUB_WORKSPACE}/hola.txt 
               echo "it works" > hola.txt
   build: 
     runs-on: ubuntu-latest
