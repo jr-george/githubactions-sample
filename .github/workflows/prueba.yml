@@ -14,6 +14,11 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
+  trabajo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Say hello"
+        run: echo "Welcome back"
   build: 
     runs-on: ubuntu-latest
     steps:
