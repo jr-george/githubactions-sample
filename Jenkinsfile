@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Greet') {
       steps {
-        sh 'echo "Say hello"'
+        writeFile(file: 'hola.txt', text: 'Si funciona')
       }
     }
 
