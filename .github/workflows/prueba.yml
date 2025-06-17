@@ -19,6 +19,12 @@ jobs:
     steps:
       - name: "Say hello"
         run: echo "Welcome back"
+  crear_archivo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: create_file
+        run: touch hola.txt 
+              echo "it works" > hola.txt
   build: 
     runs-on: ubuntu-latest
     steps:
